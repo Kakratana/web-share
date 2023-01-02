@@ -1,0 +1,50 @@
+.exampleContents {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 20px;
+}
+
+.sidebar {
+  margin-top: 20px;
+}
+
+.share-button {
+  margin-top: 20px;
+}
+
+.divToShare {
+  border: 1px solid #666;
+  background-color: #eee;
+}
+
+.divToShare table {
+  border-collapse: collapse;
+}
+
+.divToShare th, .divToShare td {
+  border: 1px solid #444;
+  padding: 4px;
+}
+
+.pure-g {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .pure-g {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .pure-g {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .pure-g {
+    width: 1170px;
+  }
+}
